@@ -44,11 +44,14 @@ public class PostService {
         restTemplate.put("https://jsonplaceholder.typicode.com/posts/" + id, postDto);
     }
     */
-    //metodo para actualiza post
+
+    //metodo para actualiza post - recomendable porque se usa en cualquier tipo de solicitud el exchange()
     public PostDto updatePost(Integer id, PostDto postDto) {
         HttpEntity<PostDto>  httpEntity= new HttpEntity<>(postDto);
         ResponseEntity<PostDto> response= restTemplate.exchange("https://jsonplaceholder.typicode.com/posts/"+id,
-                HttpMethod.PUT,httpEntity,PostDto.class);
+                HttpMethod.PUT,
+                httpEntity,
+                PostDto.class);
         return response.getBody();
     }
 
