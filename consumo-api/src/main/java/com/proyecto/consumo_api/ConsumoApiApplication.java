@@ -2,6 +2,8 @@ package com.proyecto.consumo_api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 public class ConsumoApiApplication {
@@ -10,4 +12,8 @@ public class ConsumoApiApplication {
 		SpringApplication.run(ConsumoApiApplication.class, args);
 	}
 
+	@Bean
+	public RestTemplate restTemplate() {
+		return new RestTemplate();
+	}
 }
