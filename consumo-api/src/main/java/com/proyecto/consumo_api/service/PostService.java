@@ -20,7 +20,7 @@ public class PostService {
     //metodo para obtener todos los post
 
     public List<PostDto> getPosts() {
-        ResponseEntity<List<PostDto>> response = restTemplate.exchange("https://jsonplaceholder.typicode.com/users/1/todos",
+        ResponseEntity<List<PostDto>> response = restTemplate.exchange("https://jsonplaceholder.typicode.com/users/1/posts",
                 HttpMethod.GET,
                 null,
                 new ParameterizedTypeReference<List<PostDto>>() {}
