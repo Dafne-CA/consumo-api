@@ -1,26 +1,28 @@
-# consumo-api
-Consumo de API JSONPlaceholder con el uso de restemplate ✨☄️🌟
+# CONSUMO-API 🌟
+Consumo de la API **JSONPlaceholder** utilizando **RestTemplate** ✨☁️💻
 
+## 🌐 Enlace a la API
 
+Puedes acceder a la documentación de la API **[aquí](https://jsonplaceholder.typicode.com/)**. 🚀
 
 ## Capturas de pantalla
 
-<details>
-  <summary>GET by ID</summary>
-  <img src="images/getbyid.png" alt="GET by ID" width="500">
-</details>
+### 1️⃣ **GET by ID** 
+Aquí está la captura de cómo se hace la solicitud **GET** por ID:  
+![GET by ID](images/getbyid.png)
 
-<details>
-  <summary>Created Post</summary>
-  <img src="images/createdpost.png" alt="Created Post" width="500">
-</details>
+### 2️⃣ **Created Post**  
+¡Mira cómo se crea un nuevo post!  
+![Created Post](images/createdpost.png)
 
-<details>
-  <summary>Edit Post</summary>
-  <img src="images/editpost.png" alt="Edit Post" width="500">
-</details>
+### 3️⃣ **Edit Post**  
+Aquí se edita un post que ya existe:  
+![Edit Post](images/editpost.png)
 
-<details>
-  <summary>Delete Post</summary>
-  <img src="images/deletepost.png" alt="Delete Post" width="500">
-</details>
+### 4️⃣ **Delete Post**  
+Y así es como se elimina un post:  
+![Delete Post](images/deletepost.png)
+
+---
+
+¡Espero que te haya gustado! 🌸💖 Si tienes alguna pregunta, no dudes en escribirme. 📝😊
